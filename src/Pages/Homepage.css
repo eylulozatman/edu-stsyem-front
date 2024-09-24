@@ -1,0 +1,35 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .registerCard, .loginCard {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Kırmızı renkli register card'lar */
+  .registerCard {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Beyaz renkli login card'lar */
+  .loginCard {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
